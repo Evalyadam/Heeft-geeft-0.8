@@ -1,0 +1,26 @@
+import random
+
+outcome_id = random.randint(1,2)
+
+a = input("whats your name?")
+print("Hello",a)
+
+if (outcome_id)==1:
+	print("uh oh! a wild trenix has apeared!")
+	print("options: punch, flee.")
+	outcome1_attack=input(" ")
+	if (outcome1_attack)=="flee":
+		print("the trenix killednyou before you died...")
+		if (outcome1_attack)=="punch":
+			print("good job! you defeated the trenix!")
+
+if (outcome_id)==2:
+	print("uh oh! a wild kilen apeared")
+	print("options: kick, punch")
+	outcome2_attack=input(" ")
+	if (outcome2_attack)=="kick":
+		print("you almost defeated kilen! kilen ran away!")
+	if (outcome2_attack)=="punch":
+		print("One more attack and he is defeated!")
+		outcome22 = input("(make another attack.  )")
+		print("wow! good job! you defeated the kilen!")
