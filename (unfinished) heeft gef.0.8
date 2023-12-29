@@ -1,6 +1,6 @@
 import random
 
-outcome_id = random.randint(1,2)
+outcome_id = random.randint(1,3)
 
 a = input("whats your name?")
 print("Hello",a)
@@ -24,3 +24,14 @@ if (outcome_id)==2:
 		print("One more attack and he is defeated!")
 		outcome22 = input("(make another attack.  )")
 		print("wow! good job! you defeated the kilen!")
+
+if (outcome_id)==3:
+	print("uh oh! a wild Pheonix apeared")
+	print("options: kick, punch")
+	outcome3_attack=input(" ")
+	if (outcome3_attack)=="kick":
+		print("you almost defeated Pheonix! kilen ran away!")
+	if (outcome3_attack)=="punch":
+		print("One more attack and he is defeated!")
+		outcome33 = input("(make another attack.  )")
+		print("wow! good job! you defeated the Pheonix!")
